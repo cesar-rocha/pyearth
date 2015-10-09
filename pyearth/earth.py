@@ -35,5 +35,5 @@ class Betaplane():
 
         const = Constants()
         self.f0 = 2.*const.omega*sin(lat*pi/180.)
-        self.beta = 2*const.omega*cos(lat*pi/180)/const.radius_mean
+        self.beta = 2*const.omega*cos(lat*pi/180.)/const.radius_mean
 
